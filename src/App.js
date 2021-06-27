@@ -14,9 +14,10 @@ class App extends Component {
           {moment().format('MMMM Do YYYY, hh:mm:ss a')}
         </header>
         <p className="App-intro">
-          Now
+          Now.
         </p>
         <ExampleComponent />
+        <TestComponent />
 
       </div>
     );
